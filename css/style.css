@@ -10,7 +10,7 @@ body{
 
 p{
   color: #524C56;
-  font-size: 168%;
+  font-size: 130%;
   line-height: 155%;
   padding: 3%;
   text-indent: 2%;
@@ -18,13 +18,14 @@ p{
 }
 
 h3{
-  font-size: 175%;
+  font-size: 160%;
   line-height: 155%;
   font-weight: 500;
   color: #524C56;
   text-align: center;
   text-transform: uppercase;
-  padding: 0;
+  padding: 10px;
+  padding-top: 100px;
 }
 
 a{
@@ -40,7 +41,7 @@ a:hover{
 img{
   display: block;
   margin: : 0 auto;
-  max-width: 100%;
+  max-width: 30px;
   height: auto;
   width: auto;
   margin-bottom: -4px;
@@ -56,11 +57,23 @@ header{
 header #logo img{
   margin: 20px;
   float: left;;
-  width: 100px;
+  width: 200px;
 }
 
 ul{
   list-style: none;
+}
+
+nav{
+    float: right;
+    padding: 25px 20px 0 0;
+}
+
+nav ul li{
+  font-size: 150%;
+  display: inline-block;
+  float: left;
+  padding: 10px;
 }
 
 nav ul li a {
@@ -69,4 +82,16 @@ nav ul li a {
 
 .current{
   color: #3f5767;
+}
+
+.one{
+  width: 31%;
+  float: left;
+}
+
+footer{
+  float: left;
+  display:inline;
+  padding-left:3px;
+  padding-right:3px;
 }
